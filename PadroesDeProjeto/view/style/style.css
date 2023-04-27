@@ -1,0 +1,72 @@
+        /* Reset de estilos padrão */
+        body, h1, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        h2, p{
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            color: #FFF;
+            background-color: #2D2727;
+            display: block;
+        }
+
+        /* Estilos de container */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #8F43EE;
+            color: #FFF;
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-add {
+            background-color: #27ae60;
+        }
+
+        .btn-list {
+            background-color: #2980b9;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            right: 0;
+            background-color: #8F43EE;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+        }
